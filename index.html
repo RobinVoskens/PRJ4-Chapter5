@@ -9,50 +9,95 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <title>PRJ4-Chp5 Bootstrap</title>
+    <title>Robin Voskens</title>
   </head>
   <body>
 
-    <header>
-        <nav class="navbar navbar-light bg-light">
-            <form class="form-inline">
-                <a href="index.html">
-                <button class="btn btn-outline-success" type="button">HOME</button>
-                </a>
-                <a href="191585.html">
-                <button class="btn btn-sm btn-outline-secondary" type="button" href="191585.html">191585</button>
-                </a>
-            </form>
-        </nav>    
+<!-- Navigation menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" height="60px">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Landscape<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="191585.html">Galaxy</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Header -->
+    <header>
+         <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Landscape Wallpapers</h1>
+    <p class="lead">Find the best Landscape wallpapers in HD</p>
+  </div>
+</div>
     </header>
 
-    <h2>Desktop Wallpapers</h2>
    
+<!-- Main Section -->
+<main>
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <img class="img-fluid" src="images/wallpaper1.jpg">
+                <img class="img-fluid" src="images/landscape-wallpaper1.jpg">
                 <p>Image 1</p>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <img class="img-fluid" src="images/wallpaper2.jpg"> 
+                <img class="img-fluid" src="images/landscape-wallpaper2.jpg"> 
                 <p>Image 2</p>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                <img class="img-fluid" src="images/wallpaper3.jpg">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <img class="img-fluid" src="images/landscape-wallpaper3.jpg">
                 <p>Image 3</p>
             </div>
         </div>
-        
+        <div class="row">
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <img class="img-fluid" src="images/landscape-wallpaper4.jpg">
+                <p>Image 4</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <img class="img-fluid" src="images/landscape-wallpaper5.jpg"> 
+                <p>Image 5</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <img class="img-fluid" src="images/landscape-wallpaper6.jpg">
+                <p>Image 6</p>
+            </div>
+        </div>
     </div>
-
+</main>
     
 
  
-
-   <footer>    
-    </footer>
+<!-- Footer -->
+<footer class="footer">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="centered">
+        <a class="navbar-brand" href="">
+            <img src="images/instagram.png" height="25px">
+        </a>
+        <a class="navbar-brand" href="">
+            <img src="images/twitter.png" height="25px">
+        </a>  
+        <a class="navbar-brand" href="">
+            <img src="images/youtube.png" height="25px">
+        </a>
+        <p>Created by Robin Voskens ©</p> 
+        </div>   
+    </nav>
+</footer>
 
     <!-- JQuery first. Popper is included in bootstrap js -->
     <script src="js/jquery-3.6.0.slim.min.js"></script>
